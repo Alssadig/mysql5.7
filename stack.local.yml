@@ -4,7 +4,7 @@ services:
     container_name: mysql57
     build:
       context: ./
-      dockerfile: ./Dockerfile
+      dockerfile: ./Dockerfile 
     networks:
       - mysql57
     volumes:
